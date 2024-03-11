@@ -1,8 +1,10 @@
-import { SectionList, StyleSheet,  Text, FlatList } from 'react-native'
+import { SectionList, StyleSheet,  Text, FlatList, View } from 'react-native'
 import React from 'react'
 
 import foodItems from '../data/food';
 import ListItem from '../comonents/ListItem';
+
+import Icon from 'react-native-vector-icons/FontAwesome5'
 
 export default function Home({ navigation }) {
   return (
@@ -11,10 +13,19 @@ export default function Home({ navigation }) {
       sections={foodItems}
       renderSectionHeader={({ section }) =>
         <>
-          <Text style={styles.header}>{section.title}</Text>
+          <View style={styles.header}>
+            <Text style={styles.headerText}>{section.title}</Text>
+            <Icon name='star' size={20} color='#FFF'/>
+            <Text style={styles.headerText}>{section.rating}</Text>
+            <Icon name='walking' size={20} color='#FFF'/>
+            <Text style={styles.headerText}>{section.distance}</Text>
+          </View>
+          
           <FlatList horizontal
             data={section.data}
-            renderItem={({item})=><ListItem item={item} section={section} navigation={navigation}/>}
+            renderItem={
+              ({item})=><ListItem item={item} section={section} navigation={navigation}/>
+            }
             showsHorizontalScrollIndicator={false}
           />
         </>
@@ -28,7 +39,6 @@ export default function Home({ navigation }) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
   },
   header: {
     width: 200,
@@ -37,6 +47,12 @@ const styles = StyleSheet.create({
     backgroundColor: 'steelblue',
     color: 'white',
     fontWeight: 'bold',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  headerText: {
+    color: 'white'
   },
   small: {
     width: 200,
