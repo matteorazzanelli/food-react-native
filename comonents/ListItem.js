@@ -20,7 +20,7 @@ export default function ListItem({navigation, item, section}) {
         <Text style={{fontSize: 20}}>{item.title}</Text>
         <View style={{flexDirection: 'row'}}>
           <Icon name='clock' size={20} color="#FFF" />
-          <Text>{item.pickup}</Text>
+          <Text>Ritiro : {item.pickup}</Text>
         </View>
         <Text style={styles.itemPrice}>{item.price}</Text>
       </View>

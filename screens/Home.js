@@ -29,7 +29,6 @@ export default function Home({ navigation }) {
             showsHorizontalScrollIndicator={false}
           />
         </>
-        
       }
       renderItem={() => null}
       keyExtractor={(item) => item.id}

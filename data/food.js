@@ -13,7 +13,8 @@ const foodItems = [
         pickup: '19:30-20:00',
         uri: `${baseUrl}807/680/957/7465/front_it.35.400.jpg`,
         price: '0€',
-        remaining: '10'
+        remaining: '10',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: '1',
@@ -21,7 +22,8 @@ const foodItems = [
         pickup: '19:30-20:00',
         uri: `${baseUrl}807/680/208/5738/front_it.3333.400.jpg`,
         price: '0€',
-        remaining: '10'
+        remaining: '10',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: '2',
@@ -29,7 +31,8 @@ const foodItems = [
         pickup: '00:00-23:59',
         uri: `${baseUrl}801/335/599/9143/front_it.49.400.jpg`,
         price: '0€',
-        remaining: '10'
+        remaining: '10',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
     ],
   },
@@ -45,7 +48,8 @@ const foodItems = [
         pickup: '10:00-12:00',
         uri: `${baseUrl}801/567/302/9595/front_it.3.400.jpg`,
         price: '3€',
-        remaining: '1'
+        remaining: '1',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: '1',
@@ -53,7 +57,8 @@ const foodItems = [
         pickup: '12:00-14:00',
         uri: `${baseUrl}800/778/050/1354/front_it.14.400.jpg`,
         price: '1€',
-        remaining: '2'
+        remaining: '2',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
     ],
   },
@@ -69,7 +74,8 @@ const foodItems = [
         pickup: '12:00-14:00',
         uri: `${baseUrl}405/648/909/7785/front_it.3.400.jpg`,
         price: '5€',
-        remaining: '2'
+        remaining: '2',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: '1',
@@ -77,7 +83,8 @@ const foodItems = [
         pickup: '20:00-22:00',
         uri: `${baseUrl}206/003/300/3490/front_it.4.400.jpg`,
         price: '4€',
-        remaining: '1'
+        remaining: '1',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: '2',
@@ -85,7 +92,8 @@ const foodItems = [
         pickup: '00:00-23:59',
         uri: `${baseUrl}800/403/038/1681/front_it.8.400.jpg`,
         price: '2€',
-        remaining: '5'
+        remaining: '5',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: '3',
@@ -93,7 +101,8 @@ const foodItems = [
         pickup: '12:00-13:00',
         uri: `${baseUrl}405/648/909/8249/front_it.3.400.jpg`,
         price: '5€',
-        remaining: '2'
+        remaining: '2',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
     ],
   },
@@ -109,7 +118,8 @@ const foodItems = [
         pickup: '10:00-14:00',
         uri: `${baseUrl}20823931/front_it.8.400.jpg`,
         price: '2€',
-        remaining: '5'
+        remaining: '5',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: '1',
@@ -117,7 +127,8 @@ const foodItems = [
         pickup: '06:00-14:00',
         uri: `${baseUrl}405/809/430/0502/front_it.50.400.jpg`,
         price: '1€',
-        remaining: '5'
+        remaining: '5',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         id: '2',
@@ -125,7 +136,8 @@ const foodItems = [
         pickup: '10:00-14:00',
         uri: `${baseUrl}800/186/018/6691/front_it.3.400.jpg`,
         price: '3€',
-        remaining: '3'
+        remaining: '3',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
     ],
   }
