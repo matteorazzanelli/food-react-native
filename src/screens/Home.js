@@ -2,7 +2,7 @@ import { SectionList, StyleSheet,  Text, FlatList, View } from 'react-native'
 import React from 'react'
 
 import foodItems from '../data/food';
-import ListItem from '../comonents/ListItem';
+import ListItem from '../components/ListItem';
 
 import Icon from 'react-native-vector-icons/FontAwesome5'
 
